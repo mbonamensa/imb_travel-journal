@@ -4,7 +4,7 @@ import { FaGlobeAfrica } from "react-icons/fa";
 function Header() {
     return (
         <div className="header">
-            <p><FaGlobeAfrica /> my travel journal.</p>
+            <FaGlobeAfrica className="globe"/><h1>my travel journal.</h1>
         </div>
     )
 

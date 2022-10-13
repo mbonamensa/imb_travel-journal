@@ -1,3 +1,118 @@
+// VARIABLES
+$white: #ffffff;
+$black: #000000;
+$fade-red: #F55A5A;
+$light-grey: #918E9B;
+
+@mixin flexed($align, $gap, $justify) {
+    display: flex;
+    align-items: $align;
+    gap: $gap;
+    justify-content: $justify;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header {
+    @include flexed(center, 8px, center);
+    background-color: $fade-red;
+    color: $white;
+    text-align: center;
+    padding: 20px;
+
+    .globe {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+.card {
+    @include flexed(center, 30px, normal);
+    width: 85%;
+    min-width: 680px;
+    max-width: 900px;
+    margin: 55px auto;
+}
+
+.card--img {
+    font-size: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.card--location {
+    @include flexed(center, 20px, normal);
+    margin-bottom: 9px;
+    font-size: 18px;
+
+    a {
+        color: $light-grey;
+    }
+}
+
+.card--location-name {
+    @include flexed(baseline, 3px, normal);
+
+    .icon {
+        color: $fade-red;
+        font-size: 15px;
+    }
+
+    p {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+
+.card--location-details {
+    h2 {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 778px) {
+    .card {
+        flex-direction: column;
+        min-width: auto;
+    }
+    .card--img {
+        min-width: auto;
+        max-width: none;
+        width: 100%;
+        height: 100%
+
+    }
+}
+    
