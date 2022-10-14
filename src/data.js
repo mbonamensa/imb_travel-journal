@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -10,6 +11,7 @@ export default [
     },
 
     {
+        id: 2,
         title: "Kwame Nkrumah Memorial Park",
         location: "Ghana",
         googleMapsUrl:  "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -18,6 +20,6 @@ export default [
         description:`Kwamw Nkrumah Memorial Park is a park that was set up to celebrate Ghana's 
         founding Father who fought for the contries independence. The park has a beautiful scenery
         where people can go and relax and have picnics or events`,
-        image: "./img/image1.jpg"
+        image: "../img/image1.jpg"
     }
 ]

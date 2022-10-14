@@ -1,4 +1,4 @@
-import "../css/styles.css"
+import "./css/styles.css"
 import Header from "./components/Header"
 import Card from "./components/Card"
 import data from "./data.js"
@@ -6,7 +6,8 @@ import data from "./data.js"
 function App() {
 
   const cards = data.map(card => {
-    return <Card 
+    return <Card
+      key={card.id} 
       card={card}
     />
   })
