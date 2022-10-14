@@ -18,6 +18,6 @@ export default [
         description:`Kwamw Nkrumah Memorial Park is a park that was set up to celebrate Ghana's 
         founding Father who fought for the contries independence. The park has a beautiful scenery
         where people can go and relax and have picnics or events`,
-        image: "../img/image1.jpg"
+        image: "./img/image1.jpg"
     }
 ]
