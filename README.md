@@ -1,4 +1,4 @@
-# Scimba React Solo Project - Travel Journal
+# Scrimba React Solo Project - Travel Journal
 
 This is a solution to the [Travel Journal Solo Project](https://scrimba.com/learn/learnreact/react-section-2-solo-project-co74f46f2b22693c5ea577559) on Scrimba.
 
@@ -41,15 +41,16 @@ This is a solution to the [Travel Journal Solo Project](https://scrimba.com/lear
 - React-icons
 
 ### What I learned
-
-
+I got a little bit familiar with props and using .map() while working on this project. 
 
 ### Continued development
-
+I'll be practicing more with using props and .map()
 
 ### Useful resources
 
 These resources were useful in helping me build this project
+- [React icons](https://react-icons.github.io/react-icons/)
+- [Create react app with vite](https://vitejs.dev/guide/)
 
 
 ## Author
