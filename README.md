@@ -29,7 +29,7 @@ This is a solution to the [Travel Journal Solo Project](https://scrimba.com/lear
 ### Links
 
 - Project/Course URL: [Learn React for Free](https://scrimba.com/learn/learnreact/react-section-2-solo-project-co74f46f2b22693c5ea577559)
-- Live Site URL: [Maame's Travel Journal](https://mbonamensa.github.io/imb-travel-journal)
+- Live Site URL: [Maame's Travel Journal](https://mbonamensa.github.io/imb_travel-journal)
 - Figma file: [Travel Journal](https://www.figma.com/file/QG4cOExkdbIbhSfWJhs2gs/Travel-Journal?node-id=0%3A1)
 
 ## My process
